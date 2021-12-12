@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import torch
 from transformers import BertTokenizer
 from IPython.display import clear_output
@@ -301,7 +298,6 @@ print(f"""
 """)
 
 
-# In[ ]:
 
 # 訓練模式
 model.train()
