@@ -306,7 +306,6 @@ model.train()
 optimizer = torch.optim.Adam(model.parameters(), lr=1e-5)
 
 EPOCHS = 6  # 幸運數字
-jindu = 0
 for epoch in range(EPOCHS):
     running_loss = 0.0
     for data in trainloader:
